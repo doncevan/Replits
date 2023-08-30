@@ -6,5 +6,10 @@ public class R019_TypeCasting {
         double number = 100.50;
         int number2 = (int) number;
         System.out.println(number2);
+
+        int num;
+        num = 200;
+        double num2 = num;
+        System.out.println(num2);
     }
 }

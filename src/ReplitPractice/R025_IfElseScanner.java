@@ -19,7 +19,5 @@ public class R025_IfElseScanner {
         } else {
             System.out.println("Entered number is equals to 0");
         }
-
-
     }
 }

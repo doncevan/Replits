@@ -14,7 +14,7 @@ public class R013_ArithmeticOps {
     Now try running your code! What number is printed to the console?
     Now, go back to your code and change myNumber to any other integer.  Run your program again. Is the output the same?
      It's math magic!              The magic number is _! */
-        int myNumber = 1;
+        int myNumber = 10;
         int stepOne = myNumber * myNumber;
         int stepTwo = stepOne + myNumber;
         int stepThree = stepTwo / myNumber;

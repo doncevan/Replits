@@ -16,7 +16,5 @@ public class R027_IfElseScanner {
         } else {
             System.out.println("You are not eligible to vote");
         }
-
-
     }
 }

@@ -25,5 +25,4 @@ public class R031_NestedIfScanner {
             System.out.println("I stay home and practice Java");
         }
     }
-
 }

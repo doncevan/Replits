@@ -7,13 +7,13 @@ public class Switch {
 
         switch (code) {
             case 'A':
-                discount = 0.0;
+                discount = 0.7;
 
             case 'B':
                 discount = 0.1;
 
             case 'C':
-                discount = 0.2;
+                discount = 0.5;
 
             default:
                 discount = 0.3;

@@ -9,10 +9,10 @@ public class R023_ScannerIfElse {
         Scanner user = new Scanner(System.in);
         System.out.println("Input the boolean value");
         boolean value = user.nextBoolean();
-        if (value==true) {
-            System.out.println("The value is " + value);
+        if (value) {
+            System.out.println("The value is " + true);
         } else {
-            System.out.println("The value is " + value);
+            System.out.println("The value is " + false);
         }
     }
 }

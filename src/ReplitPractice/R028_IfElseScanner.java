@@ -11,10 +11,12 @@ public class R028_IfElseScanner {
         int length = scan.nextInt();
         System.out.println("Please enter the width");
         int width = scan.nextInt();
-        if (length != width) {
+        if (length * width > 0 && length != width) {
             System.out.println("The shape of your objects rectangle");
-        } else {
+        } else if (length * width > 0 && length == width) {
             System.out.println("The shape of your object is square");
+        } else {
+            System.out.println("Please enter positive numbers only");
         }
     }
 }

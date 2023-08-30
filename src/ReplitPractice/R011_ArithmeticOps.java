@@ -9,6 +9,6 @@ public class R011_ArithmeticOps {
         int perimeter = (width + height) * 2;
         int area = width * height;
         System.out.println("The perimeter of a rectangle with width " + width + " and " +
-                "height " + height + " is equals to " + perimeter + " and the area equals to " + area);
+                "height " + height + " is equal to " + perimeter + " and the area is equal to " + area);
     }
 }

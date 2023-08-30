@@ -6,9 +6,7 @@ public class R007_StringConcat {
         "programming language" to it.Concatenate both Strings and output should look like as below:
                           Java is the #1 programming language           */
         String name = "Java";
-
         String statement = "programming language";
-
         System.out.println(name + " is the #1 " + statement);
     }
 }

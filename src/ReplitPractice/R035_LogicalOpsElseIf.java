@@ -15,9 +15,7 @@ If the result is true then prompt user with question: "What is your credit score
         System.out.println("Do you need a loan?");
         boolean loan = scan.nextBoolean();
 
-        if (!loan) {
-            System.out.println("Unknown");
-        } else {
+        if (loan) {
             System.out.println("What is your credit score?");
             int creditScore = scan.nextInt();
             if (creditScore < 600) {
@@ -29,7 +27,8 @@ If the result is true then prompt user with question: "What is your credit score
             } else {
                 System.out.println("Definitely eligible");
             }
+        } else {
+            System.out.println("Unknown");
         }
     }
-
 }

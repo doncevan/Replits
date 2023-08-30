@@ -9,8 +9,8 @@ public class R005_IntConcat {
 - Print the value of "age" and the value of "iq" on the same line. */
         String name = "Chen";
         int age = 50;
-        int iq = age;
-
+        int iq;
+        iq = age;
         System.out.println(name);
         System.out.println(age + "" + iq);
     }
