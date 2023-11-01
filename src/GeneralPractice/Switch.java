@@ -19,7 +19,5 @@ public class Switch {
                 discount = 0.3;
                 System.out.println(discount);
         }
-
-
     }
 }

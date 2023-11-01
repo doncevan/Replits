@@ -11,8 +11,8 @@ public class R107_StringBuffer {
         StringBuffer str = new StringBuffer("Hello Friends");
         System.out.println(str.reverse());
 //****************************************
-        String text = "Hello Friends";
-        StringBuilder stringBuilder = new StringBuilder(text);
+        //String text = "Hello Friends";
+        StringBuilder stringBuilder = new StringBuilder("Hello Friends");
         System.out.println(stringBuilder.reverse());
     }
 }
